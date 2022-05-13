@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cube Shooter 2d</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      //add here
+
+      var firebaseConfig = {
+  apiKey: "AIzaSyAg9qVdU1V1M9pEw9Ac2jd7e8S8bzDZ5RI",
+  authDomain: "cube-shooter-85175.firebaseapp.com",
+  databaseURL: "https://cube-shooter-85175-default-rtdb.firebaseio.com",
+  projectId: "cube-shooter-85175",
+  storageBucket: "cube-shooter-85175.appspot.com",
+  messagingSenderId: "730834136814",
+  appId: "1:730834136814:web:721eb2f0db34be21facdff"
+};
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+      </head>
+
+  <body>
+
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <script src="./sketch.js"></script>
+  </body>
+</html>
